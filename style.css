@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Gloock', serif;
+  color: #222831;
+  font-size: large;
+  line-height: normal;
+}
+
+.profile_pic {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #00ADB5;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #222831;
+  color: white;
+}
+
+h1, h2 {
+  line-height: 1.6;
+}
+
+h1 {
+  color: #222831;
+}
+
+h2 {
+  color: #393E46;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #00ADB5;
+  line-height: 2;
+}
+
+a:hover {
+  color: #393E46;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline, li {
+  display: inline;
+  padding: 10px;
+  font-size: 50px;
+}
